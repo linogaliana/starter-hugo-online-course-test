@@ -96,5 +96,4 @@ extensions:
     enable: true
 
 
-plugins_js: ["custom", "panelset"]
 
