@@ -2,32 +2,47 @@
 widget: hero
 headless: true
 weight: 10
-title: Online Course Template
-hero_media: teacher.png
+title: Python pour les data-scientists et économistes
+hero_media: word.png
 design:
   background:
-    gradient_angle: 0
-    gradient_start: 'rgb(224,223,255)'
-    gradient_end: 'rgb(153,238,255)'
-    text_color_light: false
+    gradient_start: '#000000'
+    gradient_end: '#000000'
+    text_color_light: true
 cta:
-  url: '#courses'
-  label: Explore our courses
+  url: course/
+  label: Get Started
   icon_pack: fas
-  icon: user-graduate
+  icon: download
 cta_alt:
-  url:
-  label:
-cta_note:
-  label:
-advanced:
-  css_class: fullscreen
+  url: course/
+  label: View Documentation
+# cta_note:
+#   label: >-
+#     <span class="js-github-release" data-repo="linogaliana/python-datascientist">
+#       Show your product version here:<!-- Automatically filled based on data-repo value -->
+#     </span>
 ---
+
+<!--## Structuration du site--->
+
+<a class="github-button" href="https://github.com/linogaliana/python-datascientist" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this website on Github">Star this website on Github</a><script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <br>
 
-Published with the [Wowchemy Website Builder](https://wowchemy.com/) for Hugo.
+Ce site web rend public le contenu du cours de 
+deuxième année (Master 1) de l'ENSAE:
+[*Python pour les data-scientists et économistes*](https://www.ensae.fr/courses/python-pour-le-data-scientist-pour-leconomiste/)
+:snake:. 
 
-Introduce your courses here.
+Le cours est structuré sous la forme du présent site web et de notebooks
+jupyter proposant des exercices plus approfondis. L'ensemble
+des codes sources est stocké sur [Github](https://github.com/linogaliana/python-datascientist)
+<a href="https://github.com/linogaliana/python-datascientist" class="github"><i class="fab fa-github"></i></a>
 
-<a class="github-button" href="https://github.com/wowchemy/wowchemy-hugo-modules" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star Wowchemy Website Builder for Hugo</a><br><a class="github-button" href="https://github.com/wowchemy/starter-hugo-online-course" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Online Course template">Star the Online Course template</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+<!----
+Pour citer:
+
+{{< cite page="/pythonDS" view="4" >}}
+----->
+

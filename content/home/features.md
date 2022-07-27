@@ -2,19 +2,20 @@
 widget: featurette
 headless: true
 weight: 20
-title: Features
-subtitle: ✨ Teach _anything_ with
+title: 
+subtitle: Un contenu riche, entièrement ouvert ✨
 feature:
-  - icon: chalkboard-teacher
-    icon_pack: fas
-    name: Slides
-    description:
-  - icon: video
-    icon_pack: fas
-    name: Video
-    description:
-  - icon: code
-    icon_pack: fas
-    name: Math & Code
-    description:
+  - icon: python
+    icon_pack: fab
+    name: Documentation
+    description: Une documentation complète sur Python
+  - icon: github
+    icon_pack: fab
+    name: Open-source
+    description: Tout est disponible sur Github
+  - icon: docker
+    icon_pack: fab
+    name: Entièrement reproductible
+    description: Un dépôt reposant sur les dernières innovations de la conteneurisation pour assurer un contenu reproductible
 ---
+
